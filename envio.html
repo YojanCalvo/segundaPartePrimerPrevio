@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-sacale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Envios</title>
+</head>
+<body>
+  <header class="navbar">
+    <h1>TeEnviamoLoQueDeseasSAS.</h1>
+    <nav class="menu navbar-default">
+      <div class="container-fluid navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+          <samp class="sr-only"></samp>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
+      <div class="collapse navbar-collapse container" id="navbar-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="#">Listado</a></li>
+        <li >
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Registro <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Clientes</a></li>
+              <li><a href="#">Mensajeros</a></li>
+              <li><a href="envio.html">Envios</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="btn-ingresar" href="index.html">Ingresar</a></li>
+        </ul>
+      </div>
+      </nav>
+    </header>
+    <div class="container" id="contenedor">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9 panel panel-default">
+          <div class="contenedor">
+
+            <form>
+              <legend>Detalles de envio</legend>
+              <label>Nombre: </label>
+              <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+              <br>
+              <label>Email: </label>
+              <input type="text" name="email" placeholder="Ingresa tu email">
+              <br>
+              <label>Telefono: </label>
+              <input type="text" name="telefono" placeholder="Ingresa tu telefono">
+              <br>
+              <label>Celular: </label>
+              <input type="text" name="celular" placeholder="Ingresa tu celular">
+              <br>
+              <label>Dirección Remitente: </label>
+              <input type="text" name="direccion" placeholder="Ingresa tu dirección">
+              <br>
+              <label>Dirección a Entregar : </label>
+              <input type="text" name="direccion" placeholder="Ingresa la dirección a Entregar">
+              <br>
+              <br>
+              <label>¿Desea usted especificar qué tipo de elementos son envíados?</label>
+              <textarea placeholder="Describa qué cosas contiene su elemento a Enviar"></textarea>
+              <br>
+              <label>Mensaje: </label>
+              <textarea></textarea>
+              <br>
+              <button class="botonSolicitar" type="submit" name="Solicitar Envío"><span class="icon-share"></span>Solicitar Envío</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="line_footer" ></div>
+      <div class="container" id="contenedor">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <p>©TeEnviamosLoQueSea. <br>Derechos Reservados.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <p>Nuestras Redes Sociales: <br>
+              <span class="icon-facebook2"></span>Facebook: <a href="https://www.facebook.com/">FACEBOOK</a><br>
+              <span class="icon-twitter"></span>Twitter: <a href="https://www.twitter.com/">TWITTER</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/javaScript.js"></script>
+  </body>
+  </html>
